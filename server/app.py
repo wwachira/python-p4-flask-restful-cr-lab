@@ -52,7 +52,7 @@ class PlantByID(Resource):
         return response
 
 api.add_resource(Plants, '/plants')
-api.add_resource(PlantByID, '/plants/<int:id>')
+api.add_resource(PlantByID, '/plants/<int:id>') 
 
         
 
